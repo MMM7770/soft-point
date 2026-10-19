@@ -1,0 +1,206 @@
+.develop-con {
+  display: flex;
+  padding-top: 50px;
+}
+.develop-left h1 {
+  max-width: 487px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  leading-trim: NONE;
+  line-height: 100%;
+  padding-top: 30px;
+}
+.develop-left p {
+  max-width: 509px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.develop-con img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.company {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 60px;
+}
+.company img {
+  max-width: 200px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+.card-con {
+  box-shadow: 0px 15px 65px 0px #414d4426;
+  max-width: 282px;
+  height: 290px;
+  top: 1081px;
+  left: 157px;
+  border-radius: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.card-con h2 {
+  padding: 2px 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.card-con p {
+  padding: 2px 20px;
+
+  max-width: 222px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.cardss {
+  display: flex;
+  gap: 20px;
+}
+.card-right {
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+.card-right h1 {
+  padding-top: 20px;
+  max-width: 548px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.card-right p {
+  padding-top: 20px;
+  max-width: 480px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.card-btn1 {
+  padding-top: 50px;
+  ma-width: 183px;
+  height: 59;
+  top: 1530px;
+  left: 825px;
+  border-radius: 6px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
+.card-btn2 {
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  border: none;
+  color: red;
+  background-color: transparent;
+}
+.discover-con {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+}
+.discover-con img {
+  width: 100%;
+  max-width: 800px;
+}
+.discover-con h1 {
+  max-width: 524px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  padding-bottom: 30px;
+}
+.discover-con p {
+  max-width: 448px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.discover-con button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: white;
+  background: #f44545;
+  border: none;
+  border-radius: 6px;
+}
+
+@media (max-width: 1100px) {
+  .company {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 870px) {
+  .develop-con {
+    flex-direction: column;
+  }
+  .cardss {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .discover-con {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

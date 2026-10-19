@@ -1,0 +1,63 @@
+.hero {
+  display: flex;
+  gap: 160px;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.hero-between ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.hero-between a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #021206;
+}
+.hero-right {
+}
+.btn1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border: none;
+  background-color: white;
+  color: #021206;
+}
+.btn2 {
+  max-width: 129px;
+  height: 57;
+  top: 35px;
+  border-radius: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 10px;
+  angle: 0 deg;
+  opacity: 1;
+  background: #f44545;
+}
+.media-btn {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .hero-right {
+    display: none;
+  }
+  .media-btn {
+    display: block;
+  }
+}
+@media (max-width: 750px) {
+  .hero-between {
+    display: none;
+  }
+}
